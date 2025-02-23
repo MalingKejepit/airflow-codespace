@@ -1,0 +1,15 @@
+[2025-02-23T04:56:35.069+0000] {processor.py:186} INFO - Started process (PID=1324) to work on /opt/airflow/dags/Hello_Hello_World.py
+[2025-02-23T04:56:35.070+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Hello_Hello_World.py for tasks to queue
+[2025-02-23T04:56:35.071+0000] {logging_mixin.py:190} INFO - [2025-02-23T04:56:35.071+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Hello_Hello_World.py
+[2025-02-23T04:56:35.079+0000] {processor.py:925} INFO - DAG(s) 'hello_world' retrieved from /opt/airflow/dags/Hello_Hello_World.py
+[2025-02-23T04:56:35.161+0000] {logging_mixin.py:190} INFO - [2025-02-23T04:56:35.160+0000] {override.py:1911} INFO - Created Permission View: can read on DAG:hello_world
+[2025-02-23T04:56:35.167+0000] {logging_mixin.py:190} INFO - [2025-02-23T04:56:35.167+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG:hello_world
+[2025-02-23T04:56:35.171+0000] {logging_mixin.py:190} INFO - [2025-02-23T04:56:35.171+0000] {override.py:1911} INFO - Created Permission View: can edit on DAG:hello_world
+[2025-02-23T04:56:35.175+0000] {logging_mixin.py:190} INFO - [2025-02-23T04:56:35.175+0000] {override.py:1911} INFO - Created Permission View: can read on DAG Run:hello_world
+[2025-02-23T04:56:35.179+0000] {logging_mixin.py:190} INFO - [2025-02-23T04:56:35.179+0000] {override.py:1911} INFO - Created Permission View: can create on DAG Run:hello_world
+[2025-02-23T04:56:35.183+0000] {logging_mixin.py:190} INFO - [2025-02-23T04:56:35.183+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:hello_world
+[2025-02-23T04:56:35.187+0000] {logging_mixin.py:190} INFO - [2025-02-23T04:56:35.187+0000] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:hello_world
+[2025-02-23T04:56:35.187+0000] {logging_mixin.py:190} INFO - [2025-02-23T04:56:35.187+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T04:56:35.196+0000] {logging_mixin.py:190} INFO - [2025-02-23T04:56:35.196+0000] {dag.py:3262} INFO - Creating ORM DAG for hello_world
+[2025-02-23T04:56:35.204+0000] {logging_mixin.py:190} INFO - [2025-02-23T04:56:35.204+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_world to 2025-02-22 00:00:00+00:00, run_after=2025-02-23 00:00:00+00:00
+[2025-02-23T04:56:35.216+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Hello_Hello_World.py took 0.151 seconds
