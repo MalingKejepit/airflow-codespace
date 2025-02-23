@@ -13,3 +13,33 @@
 [2025-02-23T04:56:35.196+0000] {logging_mixin.py:190} INFO - [2025-02-23T04:56:35.196+0000] {dag.py:3262} INFO - Creating ORM DAG for hello_world
 [2025-02-23T04:56:35.204+0000] {logging_mixin.py:190} INFO - [2025-02-23T04:56:35.204+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_world to 2025-02-22 00:00:00+00:00, run_after=2025-02-23 00:00:00+00:00
 [2025-02-23T04:56:35.216+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Hello_Hello_World.py took 0.151 seconds
+[2025-02-23T04:56:58.769+0000] {processor.py:186} INFO - Started process (PID=1363) to work on /opt/airflow/dags/Hello_Hello_World.py
+[2025-02-23T04:56:58.770+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Hello_Hello_World.py for tasks to queue
+[2025-02-23T04:56:58.771+0000] {logging_mixin.py:190} INFO - [2025-02-23T04:56:58.771+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Hello_Hello_World.py
+[2025-02-23T04:56:58.778+0000] {processor.py:925} INFO - DAG(s) 'hello_world_Alif' retrieved from /opt/airflow/dags/Hello_Hello_World.py
+[2025-02-23T04:56:58.861+0000] {logging_mixin.py:190} INFO - [2025-02-23T04:56:58.861+0000] {override.py:1911} INFO - Created Permission View: can read on DAG:hello_world_Alif
+[2025-02-23T04:56:58.868+0000] {logging_mixin.py:190} INFO - [2025-02-23T04:56:58.868+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG:hello_world_Alif
+[2025-02-23T04:56:58.872+0000] {logging_mixin.py:190} INFO - [2025-02-23T04:56:58.872+0000] {override.py:1911} INFO - Created Permission View: can edit on DAG:hello_world_Alif
+[2025-02-23T04:56:58.877+0000] {logging_mixin.py:190} INFO - [2025-02-23T04:56:58.876+0000] {override.py:1911} INFO - Created Permission View: can read on DAG Run:hello_world_Alif
+[2025-02-23T04:56:58.881+0000] {logging_mixin.py:190} INFO - [2025-02-23T04:56:58.881+0000] {override.py:1911} INFO - Created Permission View: can create on DAG Run:hello_world_Alif
+[2025-02-23T04:56:58.886+0000] {logging_mixin.py:190} INFO - [2025-02-23T04:56:58.886+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:hello_world_Alif
+[2025-02-23T04:56:58.890+0000] {logging_mixin.py:190} INFO - [2025-02-23T04:56:58.890+0000] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:hello_world_Alif
+[2025-02-23T04:56:58.890+0000] {logging_mixin.py:190} INFO - [2025-02-23T04:56:58.890+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T04:56:58.899+0000] {logging_mixin.py:190} INFO - [2025-02-23T04:56:58.899+0000] {dag.py:3262} INFO - Creating ORM DAG for hello_world_Alif
+[2025-02-23T04:56:58.907+0000] {logging_mixin.py:190} INFO - [2025-02-23T04:56:58.907+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_world_Alif to 2025-02-22 00:00:00+00:00, run_after=2025-02-23 00:00:00+00:00
+[2025-02-23T04:56:58.919+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Hello_Hello_World.py took 0.154 seconds
+[2025-02-23T04:57:00.801+0000] {processor.py:186} INFO - Started process (PID=1364) to work on /opt/airflow/dags/Hello_Hello_World.py
+[2025-02-23T04:57:00.801+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Hello_Hello_World.py for tasks to queue
+[2025-02-23T04:57:00.803+0000] {logging_mixin.py:190} INFO - [2025-02-23T04:57:00.802+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Hello_Hello_World.py
+[2025-02-23T04:57:00.809+0000] {processor.py:925} INFO - DAG(s) 'hello_world_Alif2' retrieved from /opt/airflow/dags/Hello_Hello_World.py
+[2025-02-23T04:57:00.887+0000] {logging_mixin.py:190} INFO - [2025-02-23T04:57:00.887+0000] {override.py:1911} INFO - Created Permission View: can read on DAG:hello_world_Alif2
+[2025-02-23T04:57:00.894+0000] {logging_mixin.py:190} INFO - [2025-02-23T04:57:00.894+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG:hello_world_Alif2
+[2025-02-23T04:57:00.898+0000] {logging_mixin.py:190} INFO - [2025-02-23T04:57:00.898+0000] {override.py:1911} INFO - Created Permission View: can edit on DAG:hello_world_Alif2
+[2025-02-23T04:57:00.903+0000] {logging_mixin.py:190} INFO - [2025-02-23T04:57:00.903+0000] {override.py:1911} INFO - Created Permission View: can read on DAG Run:hello_world_Alif2
+[2025-02-23T04:57:00.907+0000] {logging_mixin.py:190} INFO - [2025-02-23T04:57:00.907+0000] {override.py:1911} INFO - Created Permission View: can create on DAG Run:hello_world_Alif2
+[2025-02-23T04:57:00.911+0000] {logging_mixin.py:190} INFO - [2025-02-23T04:57:00.911+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:hello_world_Alif2
+[2025-02-23T04:57:00.915+0000] {logging_mixin.py:190} INFO - [2025-02-23T04:57:00.915+0000] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:hello_world_Alif2
+[2025-02-23T04:57:00.915+0000] {logging_mixin.py:190} INFO - [2025-02-23T04:57:00.915+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T04:57:00.924+0000] {logging_mixin.py:190} INFO - [2025-02-23T04:57:00.924+0000] {dag.py:3262} INFO - Creating ORM DAG for hello_world_Alif2
+[2025-02-23T04:57:00.932+0000] {logging_mixin.py:190} INFO - [2025-02-23T04:57:00.932+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_world_Alif2 to 2025-02-22 00:00:00+00:00, run_after=2025-02-23 00:00:00+00:00
+[2025-02-23T04:57:00.945+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Hello_Hello_World.py took 0.148 seconds
